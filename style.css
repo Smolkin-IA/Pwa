@@ -1,0 +1,54 @@
+.body{
+    margin: 0;
+}
+.container{
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container__block{
+    margin-bottom: 20px;
+}
+
+.container__block input{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.container__block p{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.container button{
+    font-size: 2rem;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.header img{
+    height: 80px;
+    width: 80px;
+}
+
+.header p{
+    font-size: 2rem;
+}

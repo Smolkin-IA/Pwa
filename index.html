@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ИМТ</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#d4c1fe">
+    <link rel="icon" href="images/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#d4c1fe">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/Logo.png" alt="Логотип" >
+            <p>Калькулятор ИМТ</p>
+        </div>
+        <div class="container__block">
+            <p>Ваш рост см</p>
+            <input type="number" id="height">
+        </div>
+        <div class="container__block">
+            <p>Ваш вес кг</p>
+            <input type="number" id="weight">
+        </div>
+        <div class="container__block">
+            <p>Ваш ИМТ:</p>
+            <input type="number" readonly id="output">
+        </div>
+        <button id="btn">Рассчитать</button>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
